@@ -1,6 +1,6 @@
 pipeline:
   step1:
-    image: node:lastst
+    image: node
     pull: true
     commands:
       - node --version
