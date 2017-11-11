@@ -1,0 +1,6 @@
+pipline:
+  step1:
+    image: node:lastst
+    pull: true
+    commands:
+      - node --version
