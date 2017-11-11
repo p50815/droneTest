@@ -4,3 +4,9 @@ pipeline:
     pull: true
     commands:
       - node --version
+  step2:
+    image: node
+    pull: true
+    commands:
+      - node --version
+      - echo "Step2"
