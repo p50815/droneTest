@@ -1,4 +1,4 @@
-pipline:
+pipeline:
   step1:
     image: node:lastst
     pull: true
